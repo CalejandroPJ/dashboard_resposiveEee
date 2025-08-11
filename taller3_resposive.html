@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard Administrador</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrapper">
+<!-- Sidebar -->
+<aside class="sidebar">
+<div class="brand">
+<a href="#">Logo</a>
+<button class="toggle-btn" aria-label="Toggle Sidebar">&#9776;</button>
+</div>
+<nav class="nav">
+<ul>
+<li><a href="#">Inicio</a></li>
+<li><a href="#">Usuarios</a></li>
+<li><a href="#">Productos</a></li>
+<li><a href="#">Configuraciones</a></li>
+</ul>
+</nav>
+</aside>
+ 
+    <!-- Main Content -->
+<main class="main-content">
+<!-- Header -->
+<header class="header">
+<div class="search">
+<input type="text" placeholder="Buscar...">
+</div>
+<div class="user-profile">
+<img src="profile.jpg" alt="Usuario">
+<span>Usuario</span>
+</div>
+</header>
+ 
+      <!-- Dashboard Cards -->
+<section class="cards">
+<div class="card">
+<h3>Estadística 1</h3>
+<p>Contenido...</p>
+</div>
+<div class="card">
+<h3>Estadística 2</h3>
+<p>Contenido...</p>
+</div>
+<div class="card">
+<h3>Estadística 3</h3>
+<p>Contenido...</p>
+</div>
+<div class="card">
+<h3>Estadística 4</h3>
+<p>Contenido...</p>
+</div>
+</section>
+ 
+      <!-- User Table -->
+<section class="table-section">
+<h2>Lista de Usuarios</h2>
+<table>
+<thead>
+<tr>
+<th>Nombre</th>
+<th>Email</th>
+<th>Rol</th>
+<th>Acciones</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Maria Torres</td>
+<td>maria.t@hotmail.com</td>
+<td>Admin</td>
+<td><button>Editar</button></td>
+</tr>
+<!-- Más filas según sea necesario -->
+</tbody>
+</table>
+</section>
+</main>
+</div>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
